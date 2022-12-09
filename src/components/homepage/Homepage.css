@@ -1,0 +1,11 @@
+.homepageContainer {
+  background-color: #0c425d;
+  width: 75%;
+  min-height: 100vh;
+  margin: auto;
+  text-align: center;
+}
+
+.homepageInfo {
+  display: inline-block;
+}
