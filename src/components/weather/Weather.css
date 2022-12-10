@@ -7,7 +7,8 @@
   height: 11%;
   position: fixed;
   display: flex;
-
+  align-items: center;
+  justify-content: center;
   left: 65%;
   transform: translateX(-50%);
   bottom: 2rem;
@@ -19,6 +20,12 @@
   background: transparent;
   margin-right: 10px;
   border-radius: 50%;
+  color: var(--color-light);
+}
 
+.cont h1 {
+  background: transparent;
+  margin-right: 10px;
+  border-radius: 50%;
   color: var(--color-light);
 }

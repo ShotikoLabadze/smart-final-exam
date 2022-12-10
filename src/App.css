@@ -12,10 +12,30 @@
   --color-bg: #14648d;
   --color-white: #fff;
   --color-light: rgba(32, 218, 216, 0.6);
+  --transition: all 400ms ease;
 }
 
 body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
+  overflow: hidden;
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  background: var(--color-bg);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-bg);
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--color-bg);
+  color: var(--color-light);
+  border-color: transparent;
+  transform: scale(1.02);
 }
