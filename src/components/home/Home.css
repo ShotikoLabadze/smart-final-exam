@@ -1,0 +1,10 @@
+.cont {
+  display: flex;
+  width: 50%;
+  height: 200px;
+  margin: auto;
+  border-radius: 10px;
+
+  align-items: center;
+  justify-content: center;
+}
