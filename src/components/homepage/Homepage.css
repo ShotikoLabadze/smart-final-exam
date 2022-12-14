@@ -13,7 +13,7 @@
 .drop {
   position: absolute;
   left: 70%;
-  top: 10%;
+  top: 20%;
 }
 
 .btns {
@@ -27,7 +27,7 @@
   transition: var(--transition);
   position: absolute;
   left: 69.69%;
-  top: 15%;
+  top: 25%;
 }
 
 .btns:hover {

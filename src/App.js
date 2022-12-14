@@ -5,6 +5,7 @@ import Homepage from "./components/homepage/Homepage";
 import NotFound from "./components/notFound/NotFound";
 import Home from "./components/home/Home";
 import Weather from "./components/weather/Weather";
+import Store from "./context/Store";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -12,7 +13,9 @@ function App() {
   return (
     <div className="App">
       <Navigation />
-      <Weather />
+      <Store>
+        <Weather />
+      </Store>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
